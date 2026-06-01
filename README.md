@@ -66,5 +66,3 @@ python app.py   # or the relevant start command for the img modules
 ## Why this project was made?
 eduGPT was created to explore the intersection of education and modern generative AI. By combining both text-based communication and image context (RAG), the goal is to create a dynamic tool that adapts to different learning styles, helping users find answers efficiently and intuitively. This hands-on project serves to experiment with advanced conversational agents and create an accessible studying assistant.
 
-## License
-MIT
