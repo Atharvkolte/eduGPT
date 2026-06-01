@@ -59,7 +59,8 @@ npm run dev
 Start the backend server(s):
 ```bash
 # In the backend terminal
-python main.py  # or the relevant start command for the chat/img_rag modules
+python main.py  # or the relevant start command for the chat modules
+python app.py   # or the relevant start command for the img modules
 ```
 
 ## Why this project was made?
