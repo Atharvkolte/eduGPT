@@ -1,0 +1,158 @@
+/* Container */
+
+.rr-container {
+  background: #0f172a;
+  padding: 30px;
+  border-radius: 12px;
+  color: white;
+  margin-top: 25px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Title */
+
+.rr-title {
+  color: #38bdf8;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Input Panel */
+
+.rr-input-panel {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;          /* Prevent overflow */
+  align-items: center;
+}
+
+/* Inputs */
+
+.rr-input-panel input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  min-width: 180px;
+  flex: 1;
+  font-size: 15px;
+}
+
+/* Buttons */
+
+.rr-add {
+  background: #22c55e;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: 0.2s;
+}
+
+.rr-add:hover {
+  background: #16a34a;
+}
+
+.rr-run {
+  background: #3b82f6;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: 0.2s;
+}
+
+.rr-run:hover {
+  background: #2563eb;
+}
+
+/* Tables */
+
+.rr-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+
+.rr-table th {
+  background: #1e293b;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.rr-table td {
+  border: 1px solid #334155;
+  padding: 10px;
+  text-align: center;
+}
+
+.rr-table tr:hover {
+  background: #1e293b;
+}
+
+/* Section Titles */
+
+.rr-subtitle {
+  color: #fbbf24;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+/* Gantt Chart */
+
+.rr-gantt {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+/* Process Blocks */
+
+.rr-block {
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-right: 4px;
+  color: white;
+}
+
+/* Timeline Numbers */
+
+.rr-time {
+  display: flex;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.rr-time span {
+  text-align: left;
+}
+
+/* Responsive Fix */
+
+@media (max-width: 768px) {
+
+  .rr-input-panel {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .rr-input-panel input {
+    width: 100%;
+  }
+
+  .rr-add,
+  .rr-run {
+    width: 100%;
+  }
+
+}

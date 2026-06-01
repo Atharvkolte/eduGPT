@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+langchain
+langchain-ollama
+langchain-core
+ollama
+psycopg2-binary
+rank-bm25
+nltk
+requests
